@@ -1,0 +1,7 @@
+[package]
+name = "smf-async"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = { version = "0.3.21", features = ["io"], default-features = false }
